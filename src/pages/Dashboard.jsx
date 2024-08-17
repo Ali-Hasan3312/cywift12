@@ -1,15 +1,13 @@
 import React, { useCallback, useState } from 'react';
-import Datepicker from '../components/Datepicker';
-import FilterButton from '../components/DropdownFilter';
-import Banner from '../partials/Banner';
-import Header from '../partials/Header';
-import Sidebar from '../partials/Sidebar';
-import DropDowns from "../components/DropDowns";
 import { FaUser } from "react-icons/fa";
 import { FaGreaterThan, FaLessThan } from "react-icons/fa6";
 import { HiOutlineAdjustmentsVertical } from "react-icons/hi2";
 import { IoIosArrowDropdown, IoIosArrowDropright } from "react-icons/io";
 import { IoDownloadOutline, IoSearchOutline } from "react-icons/io5";
+import DropDowns from "../components/DropDowns";
+import Banner from '../partials/Banner';
+import Header from '../partials/Header';
+import Sidebar from '../partials/Sidebar';
 const boxNames = ['box1', 'box2', 'box3', 'box4', 'box5', 'box6', 'box7', 'box8']
 function Dashboard() {
   const [dropOpenState, setDropOpenState] = useState(
@@ -76,9 +74,8 @@ function Dashboard() {
 
               {/* Left: Title */}
               <div className="mb-4 sm:mb-0">
-                <h1 className="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 font-bold">Risk Management</h1>
+                <h1 className="text-2xl md:text-3xl text-gray-100 font-bold">Risk Management</h1>
               </div>
-
               {/* Right: Actions */}
               {/* <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
                
@@ -186,7 +183,7 @@ function Dashboard() {
                   )}
       
       <div className="flex flex-col gap-[4px] mt-3 ml-1">
-      <span className=" font-normal pb-1 max-sm:text-[7px]">Unauthorized System Access</span>
+      <span className=" font-semibold pb-1 max-sm:text-[7px]">Unauthorized System Access</span>
       <div className="flex gap-[6px] max-sm:gap-[3px]">
         <div className=" h-5 w-16 rounded-lg bg-teal-200 relative max-sm:h-3 max-sm:w-8 flex items-center justify-center">
           <span className=" text-black text-[10px] absolute left-4 top-[2px] max-sm:left-[6px] max-sm:text-[6px]">CyD-1</span>

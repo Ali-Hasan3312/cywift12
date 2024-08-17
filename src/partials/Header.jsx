@@ -49,7 +49,7 @@ function Header({
               >
                 <span className="sr-only">Search</span>
                 <svg
-                  className="fill-current text-gray-500/80 dark:text-gray-400/80"
+                  className="fill-current dark:text-gray-400/80"
                   width={16}
                   height={16}
                   viewBox="0 0 16 16"
