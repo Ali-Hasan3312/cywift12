@@ -186,7 +186,7 @@ function Dashboard() {
                   )}
       
       <div className="flex flex-col gap-[4px] mt-3 ml-1">
-      <span className=" font-normal pb-1 max-sm:text-[7px]">Unauthorized System Access</span>
+      <span className=" font-semibold pb-1 max-sm:text-[7px]">Unauthorized System Access</span>
       <div className="flex gap-[6px] max-sm:gap-[3px]">
         <div className=" h-5 w-16 rounded-lg bg-teal-200 relative max-sm:h-3 max-sm:w-8 flex items-center justify-center">
           <span className=" text-black text-[10px] absolute left-4 top-[2px] max-sm:left-[6px] max-sm:text-[6px]">CyD-1</span>
